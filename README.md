@@ -1,92 +1,119 @@
-# Electric Vehicle Data Analysis and Visualization using Python
+# Electric Vehicle Data Analysis Project
 
-##  Project Overview
-This project focuses on analyzing Electric Vehicle (EV) population data using Python.  
-The main goal is to extract meaningful insights about EV adoption, manufacturers, and vehicle performance.
+## Project Overview
+This project is a data analysis and visualization initiative focused on exploring Electric Vehicle (EV) population data. I built this project to understand EV adoption trends, compare manufacturers, and analyze how vehicle characteristics such as model year and electric range are related.
 
-The project includes data cleaning, exploratory data analysis (EDA), visualization, and a basic machine learning model using Linear Regression.
-
----
-
-##  Technologies Used
-- Python  
-- Pandas  
-- NumPy  
-- Matplotlib  
-- Seaborn  
-- Scikit-learn  
+The workflow includes data cleaning, exploratory data analysis (EDA), visualization, and a basic machine learning model using linear regression.
 
 ---
 
-##  Key Features
-Data Cleaning (handling missing values and duplicates)
-
-Exploratory Data Analysis (EDA)
-
-Data Visualization Techniques:
-- Bar Chart (Top manufacturers, EV type count)
-- Pie Chart (BEV vs PHEV distribution)
-- Line Graph (EV growth over years)
-- Area Chart (using fill_between for trend visualization)
-- Scatter Plot (Model Year vs Electric Range)
-- Histogram (Electric range distribution)
-- KDE Plot (smooth distribution analysis)
-- Heatmap (correlation between features)
-- Boxplot (outlier detection)
-
-Dashboard Visualizations:
-- Multi-panel dashboards using GridSpec
-- Master summary dashboard combining multiple plots
-
-Machine Learning:
-- Linear Regression model for prediction
-- Model evaluation using R² score and MSE
-
+## Technologies Used
+- Python 3.x
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
 
 ---
 
-##  Key Insights
-- EV adoption has increased rapidly after 2020  
-- Tesla is the leading EV manufacturer  
-- Battery Electric Vehicles (BEVs) dominate over PHEVs  
-- Electric range improves with newer model years  
-- Positive relationship between model year and electric range  
+## Key Features
+
+### 1. Data Cleaning and Preparation
+- Handled missing values and duplicates
+- Standardized data types for analysis
+- Prepared the dataset for meaningful exploration
+
+### 2. Exploratory Data Analysis
+- Reviewed distributions and summary statistics
+- Analyzed relationships between key features
+- Identified trends in EV adoption and performance
+
+### 3. Data Visualization
+- Bar charts for manufacturer distribution
+- Pie chart for BEV vs PHEV share
+- Line and area charts for adoption trends
+- Scatter plot for model year vs electric range
+- Histogram, KDE plot, heatmap, and boxplot for deeper insights
+
+### 4. Machine Learning
+- Built a Linear Regression model
+- Used model year as the input feature
+- Predicted electric range and evaluated the model using R² score and MSE
 
 ---
 
-##  Machine Learning
-- Model Used: Linear Regression  
-- Independent Variable: Model Year  
-- Dependent Variable: Electric Range  
-
-The model shows that newer vehicles tend to have higher electric range.
-
----
-
-##  Project Outputs
-
-- Dashboard visualization  
-- Regression graph  
-- Other analysis charts  
-!image[alt][https://github.com/arpitvashisht/Electric-Vehicle-Data-/blob/75fdc3accfb14e83b1e0aa89e3c23577a21add6f/EV%20PROJECT%20PYTHON/Screenshot%202026-04-22%20212448.png]
-!image[alt][https://github.com/arpitvashisht/Electric-Vehicle-Data-/blob/75fdc3accfb14e83b1e0aa89e3c23577a21add6f/EV%20PROJECT%20PYTHON/Screenshot%202026-04-22%20212516.png]
-!image[alt][https://github.com/arpitvashisht/Electric-Vehicle-Data-/blob/75fdc3accfb14e83b1e0aa89e3c23577a21add6f/EV%20PROJECT%20PYTHON/Screenshot%202026-04-27%20080257.png]
-!image[alt][https://github.com/arpitvashisht/Electric-Vehicle-Data-/blob/75fdc3accfb14e83b1e0aa89e3c23577a21add6f/EV%20PROJECT%20PYTHON/Screenshot%202026-04-22%20212602.png]
-!image[alt][https://github.com/arpitvashisht/Electric-Vehicle-Data-/blob/75fdc3accfb14e83b1e0aa89e3c23577a21add6f/EV%20PROJECT%20PYTHON/Screenshot%202026-04-22%20212541.png]
-
+## Key Insights
+- EV adoption increased significantly after 2020
+- Tesla appears as a leading manufacturer
+- Battery Electric Vehicles (BEVs) are more common than PHEVs
+- Newer model years tend to have longer electric range
 
 ---
 
-##  Future Scope
-- Add more features like battery capacity and vehicle model  
-- Use advanced machine learning models for better prediction  
+## What I Learned
+- How to clean and preprocess real-world datasets
+- How to perform exploratory data analysis
+- How to create effective data visualizations with Python
+- How to build and evaluate a basic machine learning model
 
 ---
 
-##  Conclusion
-This project demonstrates how data analysis and visualization can be used to understand real-world trends and generate useful insights from data.
+## Getting Started
+
+### Prerequisites
+- Python 3.x
+- pip
+
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/TusharPatra26/EV-Data-Analysis.git
+   cd EV-Data-Analysis
+   ```
+
+2. Install the required packages:
+   ```bash
+   pip install pandas numpy matplotlib seaborn scikit-learn
+   ```
+
+3. Run the main script:
+   ```bash
+   python EV_FINAL.py
+   ```
 
 ---
 
-##  Author
-Arpit Vashisht
+## Project Files
+- EV_FINAL.py — main Python script for analysis and visualization
+- README.md — project overview and instructions
+- EV PROJECT PYTHON/ — screenshots and supporting project assets
+
+---
+
+## Sample Visualizations
+
+![Manufacturer Distribution](EV%20PROJECT%20PYTHON/Screenshot%202026-04-22%20212448.png)
+
+![EV Trend Visualization](EV%20PROJECT%20PYTHON/Screenshot%202026-04-22%20212516.png)
+
+![Analysis Dashboard](EV%20PROJECT%20PYTHON/Screenshot%202026-04-27%20080257.png)
+
+![Additional Analysis](EV%20PROJECT%20PYTHON/Screenshot%202026-04-22%20212602.png)
+
+---
+
+## Future Scope
+- Add more features such as battery capacity and charging data
+- Explore advanced machine learning models for improved prediction
+- Build an interactive dashboard for better presentation
+
+---
+
+## Conclusion
+This project helped me strengthen my skills in data analysis, visualization, and Python-based machine learning while working with a real-world EV dataset.
+
+---
+
+## Author
+Tushar Patra
