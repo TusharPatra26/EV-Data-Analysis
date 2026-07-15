@@ -8,7 +8,7 @@ The workflow includes data cleaning, exploratory data analysis (EDA), visualizat
 ---
 
 ## Technologies Used
-- Python 3.x
+- Python 3.12
 - Pandas
 - NumPy
 - Matplotlib
@@ -62,7 +62,7 @@ The workflow includes data cleaning, exploratory data analysis (EDA), visualizat
 ## Getting Started
 
 ### Prerequisites
-- Python 3.x
+- Python 3.12
 - pip
 
 ### Installation
